@@ -10,7 +10,7 @@ class PasswordGeerator {
 
     let charset = "abcdefghijklmnopqrstuvwxyz";
 
-    if (this.upperCase === true) charset += "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    if (this.upperCase) charset += "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     if (this.numbers) charset += "0123456789";
     if (this.symbols) charset += "!@#$%^&*()_+-=[]{}|;:',.<>/?";
 
